@@ -1,0 +1,1 @@
+const { Selector } = require('testcafe');
