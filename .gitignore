@@ -9,7 +9,7 @@ reports/*
 !reports/.gitkeep
 
 #VSCode files
-.vscode/*
+# .vscode/*
 
 #Linter
 .eslintrc.json
