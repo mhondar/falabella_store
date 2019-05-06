@@ -9,7 +9,7 @@ Considerando una página web de algún Retail, que casos definirías para un pro
 Para los dos ejercicios anteriores, todos los supuestos necesarios favor comentarlos en el ejercicio para tenerlos en cuenta, y la data necesaria también.
 
 Respuesta: 
-- Casos de Prueba Sistema Bancario: C:\Users\viajes_IT\Documents\Ejercicio Practico Falabella\falabella_store\features\Parte1_A_CP_Banco.feature
+- Casos de Prueba Sistema Bancario: features\Parte1_A_CP_Banco.feature
 - Casos de Prueba Sistema Retail: features\Parte1_B_CP_Retail.feature
 
 ## Parte 2
