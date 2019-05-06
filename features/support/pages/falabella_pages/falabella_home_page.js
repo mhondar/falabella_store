@@ -1,11 +1,14 @@
 const { Selector } = require('testcafe');
 
-exports.searchBox = {
-    searchInput: function() {
-        return Selector('#searchQuestion"]').with({ boundTestRun: testController })
+exports.homeStore = {
+    searchForm: function() {
+        return Selector('#searchForm').with({ boundTestRun: testController })
     },
-    resultList: function() {
-        return Selector('[class = "LC20lb"]').with({ boundTestRun: testController })
+    searchBox: function() {
+        return Selector('#searchQuestion').with({ boundTestRun: testController })
+    },
+    detailProduct: function() {
+        return Selector('[class = "LinesEllipsis  "]').with({ boundTestRun: testController })
     }
 
 }

@@ -1,11 +1,11 @@
 const { Selector } = require('testcafe');
 
-exports.searchBox = {
+exports.googleHome = {
     searchInput: function() {
-        return Selector('[class = "gLFyf gsfi"]').with({ boundTestRun: testController })
+        return Selector('[class = "gLFyf gsfi"]', { visibilityCheck: true }).with({ boundTestRun: testController })
     },
     optionList: function() {
-        return Selector('[class = "LC20lb"]').with({ boundTestRun: testController })
+        return Selector('[class = "LC20lb"]', { visibilityCheck: true }).with({ boundTestRun: testController })
     }
 
 }

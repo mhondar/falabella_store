@@ -8,7 +8,6 @@ Feature: Comprar productos en Falabella.cl
         Given Abro la pagina "https://www.google.com/"
         And Ingreso la palabra "falabella"
         And Selecciono de los Resultados el texto que dice "Falabella.com - Mejor Compra Online"
-        And Verifico que se muestre la pagina "https://www.falabella.com/falabella-cl/"
         When Busco el articulo con nombre <Producto>
         And Abro pagina de detalles del producto <Detalles>
         And Agrego a la Bolsa el producto
