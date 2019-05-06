@@ -1,9 +1,6 @@
-# falabella_store
-Ejercicio Práctico de Automatización 
-para postular al puesto de Analista QA de automatización 
-en Digital Factory de Falabella Financiero
+# Caso Prueba Vacante QA - Falabella Financiero Digital Factory
 
-Parte 1
+## Parte 1
 
 Definir todos los casos de prueba de borde  de las siguientes funcionalidades/situaciones (esta sección no tiene relación con la parte 2), y entregarlos en un archivo de texto con enfoque BDD utilizando el lenguaje Gherkin:
 
@@ -11,7 +8,7 @@ Considerando el sistema bancario en Chile, la funcionalidad Aumento de Cupo de t
 Considerando una página web de algún Retail, que casos definirías para un proceso de compras a través del carrito desde la selección del producto hasta el proceso de pago. Priorizar pruebas de casos críticos y borde.
 Para los dos ejercicios anteriores, todos los supuestos necesarios favor comentarlos en el ejercicio para tenerlos en cuenta, y la data necesaria también.
 
-Parte 2
+## Parte 2
 
 La página web a utilizar será Google y Falabella (www.google.cl - http://www.falabella.cl).
 
@@ -19,10 +16,12 @@ Se debe utilizar Cucumber, TestCafe y Javascript. No se debe solicitar ingresos 
 
 Se deben automatizar la compra de un artículo con garantía extendida.
 
-En google buscar la palabra "falabella" y del listado que aparece, presionar en el texto que dice "Falabella.com - Mejor Compra Online"
+- En google buscar la palabra "falabella" y del listado que aparece, presionar en el texto que dice "Falabella.com - Mejor Compra Online"
 
-En Falabella.com, buscar algún producto, por ejemplo "ps4". Luego presionar en el producto para ver la nueva página con el detalle. Finalmente agregarlo a la "Bolsa" de productos
+- En Falabella.com, buscar algún producto, por ejemplo "ps4". Luego presionar en el producto para ver la nueva página con el detalle. Finalmente agregarlo a la "Bolsa" de productos
 
-Ir a la "Bolsa" de compras, aumentar a 2 productos para comprar, agregar "Garantía Extendida" de 2 años y luego presionar el botón "Ir a Comprar". 
+- Ir a la "Bolsa" de compras, aumentar a 2 productos para comprar, agregar "Garantía Extendida" de 2 años y luego presionar el botón "Ir a Comprar". 
 
-Se deben implementar las configuraciones necesarias para que el proyecto soporte Chrome e Internet Explorer como navegadores. 
+- Se deben implementar las configuraciones necesarias para que el proyecto soporte Chrome e Internet Explorer como navegadores. 
+
+Favor subir tu trabajo en un repositorio de GitHub para que podamos revisarlo desde ahí. El día de entrega es el día Martes 07/05/2019 a las 23 horas. 
