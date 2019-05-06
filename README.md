@@ -33,4 +33,7 @@ Favor subir tu trabajo en un repositorio de GitHub para que podamos revisarlo de
 Respuesta:
 - Features en Gherkis: features\Parte2_Buy_article_extend_garanty.feature
 - Configuraciones para ejecutar en Varios Navegadores y generar Reporte: package.json
-- Para ejecutar la prueba automatica escribir en consola dentro del directorio del proyecto la instruccion: npm run test_wip
+- Para ejecutar la prueba automatica escribir en consola dentro del directorio del proyecto la instruccion: 
+```
+npm run test_wip
+```
