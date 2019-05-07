@@ -1,5 +1,5 @@
 const { Given, When, Then } = require('cucumber');
-const detailFalabella = require('../../support/pages/falabella_pages/falabella_datail_page.js')
+const detailFalabella = require('../../support/pages/falabella_pages/falabella_detail_page')
 
 When('Agrego a la Bolsa el producto', async function() {
     await testController

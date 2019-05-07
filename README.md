@@ -37,3 +37,22 @@ Respuesta:
 ```
 npm run test_wip
 ```
+
+Si se desea ejecutar en otro navegador o generando reportes json se ejecutan los siguientes scripts: 
+
+```
+npm run test_wip
+npm run test-report
+npm run test-chrome
+npm run test-ie
+npm run test-edge
+npm run test-firefox
+npm run test-opera
+npm run test-safari
+npm run test-chrome-report
+npm run test-ie-report
+npm run test-edge-report
+npm run test-firefox-report
+npm run test-opera-report
+npm run test-safari-report
+```

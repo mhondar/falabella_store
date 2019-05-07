@@ -1,5 +1,4 @@
 const { Given, When, Then } = require('cucumber');
-const { Selector } = require('testcafe');
 const googlePage = require('../support/pages/google_page.js')
 
 Given('Abro la pagina {string}', async function(url) {
