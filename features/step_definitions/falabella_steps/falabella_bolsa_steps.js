@@ -6,8 +6,8 @@ When('Ingreso la cantidad de productos {int}', async function(cantidad) {
         .click(bolsa.bolsaProduct.addProduct())
 });
 
-When('Agrego Garantia Extendida {string}', async function(garantia) {
-    await testController
+When('Agrego Garantia Extendida {string}', function(garantia) {
+    testController
         .click(bolsa.bolsaProduct.garantiaForm())
         .click(bolsa.bolsaProduct.garantiaForm().child('li').child('a').withText(garantia))
 });

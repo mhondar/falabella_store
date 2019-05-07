@@ -6,8 +6,8 @@ Given('Abro la pagina {string}', async function(url) {
         .navigateTo(url)
 });
 
-Given('Ingreso la palabra {string}', async function(criterio) {
-    await testController
+Given('Ingreso la palabra {string}', function(criterio) {
+    testController
         .typeText(googlePage.googleHome.searchInput(), criterio)
         .pressKey('enter')
 });
